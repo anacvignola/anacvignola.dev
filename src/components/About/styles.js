@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import media from 'styled-media-query';
 import Img from 'gatsby-image';
 
 export const WrapperImage = styled(Img)`
@@ -7,6 +8,10 @@ export const WrapperImage = styled(Img)`
   max-width: 400px;
   border: 3px solid #bd93f9;
   border-radius: 50%;
+
+  ${media.lessThan("medium")`
+    display: none;
+  `}
 `;
 
 export const ContainerImg = styled.div`
@@ -15,6 +20,10 @@ export const ContainerImg = styled.div`
   justify-content: center;
   align-items: center;
   margin: 0 20px;
+
+  ${media.lessThan("medium")`
+    display: none;
+  `}
 `;
 
 export const Container = styled.div`
@@ -46,4 +55,8 @@ export const Text = styled.p`
       color: #50fa7b;
     }
   }
+
+  ${media.lessThan("medium")`
+      width: 100%;
+  `}
 `;

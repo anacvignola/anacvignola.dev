@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import media from 'styled-media-query';
 import { Link } from 'gatsby';
 
 export const MenuLinksWrapper = styled.nav`
@@ -38,6 +39,10 @@ export const MenuLinksList = styled.ul`
   display: flex;
   font-size: 1.1rem;
   font-weight: 300;
+
+  ${media.lessThan("small")`
+    display: none;
+  `}
 `;
 
 export const MenuLinksItem = styled.li`

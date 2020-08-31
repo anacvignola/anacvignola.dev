@@ -12,11 +12,9 @@ const Presentation = () => {
       <Wrapper>
         <Text>
           <p className="medium">
-            Olá, meu nome é <span className="large">Ana</span> e eu sou
-          </p>
-          <span className="large">Desenvolvedora Fullstack</span>
-          <p className="medium">
-            com fóco em <span className="large">Front-end</span>.
+              Olá, meu nome é <span className="large">Ana</span> e eu sou
+            <span className="large"> Desenvolvedora Fullstack </span>
+              com fóco em <span className="large">Front-end</span>.
           </p>
           <SocialLinnks />
         </Text>

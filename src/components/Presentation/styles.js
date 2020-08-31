@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import media from 'styled-media-query';
 
 export const Container = styled.div`
   display: flex;
@@ -25,6 +26,12 @@ export const ImgContainer = styled.div`
   justify-content: center;
   align-items: center;
   text-align: center;
+  padding-left: 40px;
+
+
+  ${media.lessThan("medium")`
+    display: none;
+  `}
 `;
 
 export const Text = styled.div`
@@ -36,7 +43,6 @@ export const Text = styled.div`
   color: #bd93f9;
 
   .large {
-
     font-size: 1.8rem;
     font-weight: bold;
   }
@@ -44,4 +50,15 @@ export const Text = styled.div`
   .medium {
     font-size: 1.5rem;
   }
+
+  ${media.lessThan("medium")`
+      width: 100%;
+
+    .large {
+      font-size: 1.6rem;
+    }
+    .medium {
+      font-size: 1.4rem;
+    }
+  `}
 `;

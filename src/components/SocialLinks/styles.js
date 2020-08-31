@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import media from 'styled-media-query';
 
 export const SocialLinkWrapper = styled.nav`
   margin: 1rem auto;
@@ -27,4 +28,14 @@ export const IconWrapper = styled.div`
   margin: 0 2rem;
   width: 60px;
   height: 60px;
+
+  ${media.lessThan("large")`
+    margin: 0 1.5rem;
+  `}
+
+  ${media.lessThan("medium")`
+    margin: 0 0.5rem;
+    width: 40px;
+    height: 40px;
+  `}
 `;
