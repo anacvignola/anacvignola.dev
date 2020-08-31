@@ -13,8 +13,7 @@ const Presentation = () => {
         <Text>
           <p className="medium">
               Olá, meu nome é <span className="large">Ana</span> e eu sou
-            <span className="large"> Desenvolvedora Fullstack </span>
-              com fóco em <span className="large">Front-end</span>.
+            <span className="large"><br/> Front-end developer</span>.
           </p>
           <SocialLinnks />
         </Text>

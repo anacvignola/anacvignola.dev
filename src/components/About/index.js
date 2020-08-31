@@ -20,7 +20,7 @@ const About = () => {
   return (
     <Container id="about">
       <Text>
-        <h3>Olá, </h3>
+        <h3>Sobre mim</h3>
         <p>
           Me chamo Ana Claudia Vignola e minha área de atuação é TI, desde os
           meus 14 anos trabalhei na área de suporte e infraestrutura, porém em

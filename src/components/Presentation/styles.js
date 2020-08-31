@@ -51,6 +51,12 @@ export const Text = styled.div`
     font-size: 1.5rem;
   }
 
+  ${media.lessThan("large")`
+      br {
+        display: none;
+      }
+  `}
+
   ${media.lessThan("medium")`
       width: 100%;
 

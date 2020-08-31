@@ -3,7 +3,7 @@ require('dotenv').config();
 module.exports = {
   siteMetadata: {
     title: `anacvignola.dev`,
-    description: `Full stack developer`,
+    description: `Front-end developer`,
     author: `Ana Claudia Vignola`,
     siteUrl: `https://anacvignola.dev/`,
     socialLinks: {

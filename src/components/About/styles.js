@@ -44,6 +44,11 @@ export const Text = styled.p`
   flex-direction: column;
   width: 50%;
 
+  h3 {
+    color: #bd93f9;
+    font-size: 1.4rem;
+  }
+
   p {
     margin: 1rem 0;
 
