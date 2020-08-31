@@ -11,14 +11,28 @@
     "gatsby-plugin-offline": "^3.2.12",
     "gatsby-plugin-react-helmet": "^3.3.5",
     "gatsby-plugin-sharp": "^2.6.13",
+    "gatsby-plugin-sitemap": "^2.4.11",
+    "gatsby-plugin-styled-components": "^3.3.6",
+    "gatsby-plugin-transition-link": "^1.20.2",
     "gatsby-source-filesystem": "^2.3.13",
+    "gatsby-source-graphql": "^2.6.2",
     "gatsby-transformer-sharp": "^2.5.6",
+    "gsap": "^3.4.0",
     "prop-types": "^15.7.2",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
-    "react-helmet": "^6.1.0"
+    "react-helmet": "^6.1.0",
+    "styled-components": "^5.1.1",
+    "styled-icons": "^10.5.0",
+    "styled-media-query": "^2.1.2"
   },
   "devDependencies": {
+    "eslint": "^7.3.1",
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-plugin-import": "^2.21.2",
+    "eslint-plugin-jsx-a11y": "^6.3.1",
+    "eslint-plugin-react": "^7.20.0",
+    "eslint-plugin-react-hooks": "^4.0.4",
     "prettier": "2.0.5"
   },
   "keywords": [
@@ -28,6 +42,7 @@
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
+    "develop:playground": "GATSBY_GRAPHQL_IDE=playground gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
     "start": "npm run develop",
     "serve": "gatsby serve",
