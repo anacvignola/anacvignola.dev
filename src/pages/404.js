@@ -7,7 +7,7 @@ import GlobalStyles from '../styles/global';
 
 const Container = styled.section`
   align-items: center;
-  background-image: url('https://anacvignola.dev/assets/images/404.gif');
+  background-image: url('https://github.com/anacvignola/anacvignola.dev/blob/master/assets/images/404.gif');
   background-position: bottom left;
   background-repeat: no-repeat;
   background-size: 800px;
