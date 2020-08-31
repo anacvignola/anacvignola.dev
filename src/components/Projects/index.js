@@ -43,7 +43,7 @@ const Projects = () => {
   return (
     <Wrapper id="portfolio">
       <h3>
-        Aqui você pode ver alguns projetos pessoais que andei trabalhando:
+        Aqui você pode ver alguns projetos pessoais que andei/ando trabalhando:
       </h3>
       <Grid>
         {edges.map(({ node }) => (
