@@ -9,7 +9,7 @@ import Projects from '../components/Projects';
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" />
+    <SEO title="Ana Claudia Vignola" />
     <Presentation />
     <About />
     <Projects />
