@@ -2,7 +2,7 @@
 
 # anacvignola.dev
 
-Personal website/portfolio.
+My personal website/portfolio.
 
 Currently using:
 
