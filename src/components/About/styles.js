@@ -15,7 +15,7 @@ export const WrapperImage = styled(Img)`
 `;
 
 export const ContainerImg = styled.div`
-  width: 35%;
+  width: 25%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -42,7 +42,7 @@ export const Text = styled.p`
   font-size: 1rem;
   display: flex;
   flex-direction: column;
-  width: 60%;
+  width: 65%;
 
   h3 {
     color: #bd93f9;
