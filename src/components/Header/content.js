@@ -4,7 +4,7 @@ const links = [
     url: '/#about',
   },
   {
-    label: 'Portifolio',
+    label: 'Portfolio',
     url: '/#portfolio',
   },
 ];
