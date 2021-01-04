@@ -15,7 +15,7 @@ const links = [
   },
   {
     label: 'Email',
-    url: 'mailto:me@anacvignola.dev',
+    url: 'mailto:anacvignola@riseup.net',
   },
 ];
 
