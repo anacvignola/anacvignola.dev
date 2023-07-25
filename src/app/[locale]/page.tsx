@@ -1,16 +1,3 @@
-import {
-  Link2,
-  ArrowDown,
-  Pencil,
-  Pointer,
-  Code,
-  Dribbble,
-  Github,
-  Codepen,
-  Linkedin,
-  Mail,
-} from 'lucide-react'
-
 import IntroSection from '@/components/IntroSection'
 import CasesSection from '@/components/CasesSection'
 import ServicesSection from '@/components/ServicesSection'
