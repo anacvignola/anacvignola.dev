@@ -1,0 +1,24 @@
+{
+  "Navigation": {
+    "about": "About",
+    "portfolio": "Portfolio",
+    "contact": "Contact"
+  },
+  "LocaleSwitcher": {
+    "en": "English",
+    "pt": "Portuguese"
+  },
+  "Home": {
+    "title": "I develop amazing projects with a focus on UX/UI",
+    "recentProjects": "Recent Projects",
+    "services": "Services",
+    "more": "More",
+    "prototyping": "Prototyping",
+    "prototypingDescription": "I design clear and intuitive interfaces with a focus on UX/UI design.",
+    "development": "Development",
+    "developmentDescription": "I develop professional pages and applications with clean and optimized code.",
+    "motion": "Motion",
+    "motionDescription": "I create modern interactions for the user to have the best experience.",
+    "contactMe": "Contact me!"
+  }
+}

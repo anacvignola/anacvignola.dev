@@ -1,0 +1,24 @@
+{
+  "Navigation": {
+    "about": "Sobre mim",
+    "portfolio": "Portifolio",
+    "contact": "Contato"
+  },
+  "LocaleSwitcher": {
+    "en": "Inglês",
+    "pt": "Português"
+  },
+  "Home": {
+    "title": "Desenvolvo projetos incríveis com foco em UX/UI",
+    "RecentProjects": "Projetos Recentes",
+    "Services": "Serviços",
+    "more": "Ver mais",
+    "Prototyping": "Prototipação",
+    "PrototypingDescription": "Desenho interfaces claras e intuitivas com foco em UX/UI design.",
+    "Development": "Desenvolvimento",
+    "DevelopmentDescription": "Desenvolvo páginas profissionais e aplicativos com código limpo e otimizado.",
+    "Motion": "Motion",
+    "MotionDescription": "Crio interações modernas para o usuário ter a melhor experiência.",
+    "ContactMe": "Contate-me!"
+  }
+}
