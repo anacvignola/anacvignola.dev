@@ -1,7 +1,7 @@
 'use client'
 import { useEffect, useRef, useState } from 'react'
 
-import Image from 'next/image'
+// import Image from 'next/image'
 import Link from 'next-intl/link'
 import { Construction, Link2 } from 'lucide-react'
 import { motion } from 'framer-motion'
@@ -10,12 +10,18 @@ import { projects } from '@/constants'
 import { useParams } from 'next/navigation'
 
 export default function CasesSection() {
-  const { locale } = useParams()
+  const { locale } = useParams() as string | any
   const [width, setWidth] = useState(0)
-  const carousel = useRef()
+  const carousel = useRef<HTMLDivElement | null>(null)
 
   useEffect(() => {
-    setWidth(carousel?.current?.scrollWidth - carousel?.current?.offsetWidth)
+    const scrol = carousel?.current?.scrollWidth
+      ? carousel?.current?.scrollWidth
+      : 0
+    const off = carousel?.current?.offsetWidth
+      ? carousel?.current?.offsetWidth
+      : 0
+    setWidth(scrol - off)
   }, [])
 
   return (
