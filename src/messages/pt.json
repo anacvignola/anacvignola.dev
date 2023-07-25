@@ -10,15 +10,15 @@
   },
   "Home": {
     "title": "Desenvolvo projetos incríveis com foco em UX/UI",
-    "RecentProjects": "Projetos Recentes",
-    "Services": "Serviços",
+    "recentProjects": "Projetos Recentes",
+    "services": "Serviços",
     "more": "Ver mais",
-    "Prototyping": "Prototipação",
-    "PrototypingDescription": "Desenho interfaces claras e intuitivas com foco em UX/UI design.",
-    "Development": "Desenvolvimento",
-    "DevelopmentDescription": "Desenvolvo páginas profissionais e aplicativos com código limpo e otimizado.",
-    "Motion": "Motion",
-    "MotionDescription": "Crio interações modernas para o usuário ter a melhor experiência.",
-    "ContactMe": "Contate-me!"
+    "prototyping": "Prototipação",
+    "prototypingDescription": "Desenho interfaces claras e intuitivas com foco em UX/UI design.",
+    "development": "Desenvolvimento",
+    "developmentDescription": "Desenvolvo páginas profissionais e aplicativos com código limpo e otimizado.",
+    "motion": "Motion",
+    "motionDescription": "Crio interações modernas para o usuário ter a melhor experiência.",
+    "contactMe": "Contate-me!"
   }
 }
