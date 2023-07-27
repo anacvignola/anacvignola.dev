@@ -20,5 +20,15 @@
     "motion": "Motion",
     "motionDescription": "Crio interações modernas para o usuário ter a melhor experiência.",
     "contactMe": "Contate-me!"
+  },
+  "AboutPage": {
+    "title": "Sobre mim",
+    "paragraphOne": "Meu nome é Ana Claudia Vignola, nasci em Taió/SC, atualmente trabalho como desenvolvedora front-end na",
+    "paragraphTwo": "Já passei por algumas universidades cursando graduações de tecnologia mas não concluí o curso ainda. Também já atuei desenvolvendo back-end, mas meu foco é desenvolvimento web/mobile e desing UX/UI. Amo trabalhar em equipe, sou comunicativa e curiosa, gosto de aprender coisas novas.",
+    "phraseOne": "além de atuar como freelancer.",
+    "phraseTwo": "Se quiser saber mais sobre minha carreira acesse",
+    "myCv": "meu currículo",
+    "myLinkedin": "meu linkedin",
+    "cvLink": "/docs/CV-pt-AnaClaudiaVignola.pdf"
   }
 }

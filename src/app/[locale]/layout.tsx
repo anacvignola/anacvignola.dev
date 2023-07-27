@@ -8,8 +8,8 @@ import { useLocale } from 'next-intl'
 import { Rubik } from 'next/font/google'
 import { notFound } from 'next/navigation'
 
-import Navigation from '@/components/Navigation'
 import Footer from './footer'
+import Navigation from '@/components/Navigation'
 
 const rubik = Rubik({ subsets: ['latin'] })
 
@@ -40,13 +40,12 @@ export default async function RootLayout({ children, params }: Props) {
   }
 
   return (
-    <html lang={locale}>
+    <html lang={locale} className="scroll-smooth">
       <head />
-
       <body
-        className={`${rubik.className} w-full h-auto min-w-full min-h-screen scroll-smooth bg-omnibackground`}
+        className={`${rubik.className} w-full h-full min-w-full relative bg-omnibackground`}
       >
-        <div className="w-full max-w-6xl xs:p-4 ss:p-5 mx-auto my-0">
+        <div className="w-full max-w-6xl xs:p-4 ss:p-5 mx-auto my-0 min-h-screen">
           <header className="w-full flex items-center justify-between py-5">
             <Link href="/" locale={locale} className="cursor-pointer">
               <Image
@@ -54,7 +53,6 @@ export default async function RootLayout({ children, params }: Props) {
                 alt="anacvignola.dev"
                 width={45}
                 height={49}
-                quality={100}
               />
             </Link>
             <Navigation />

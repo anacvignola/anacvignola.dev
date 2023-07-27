@@ -1,6 +1,5 @@
 export const projects = [
   {
-    id: '1',
     title: {
       pt: 'Em Construção',
       en: 'Developing',
@@ -13,7 +12,6 @@ export const projects = [
     link: '',
   },
   {
-    id: '2',
     title: {
       pt: 'Em Construção',
       en: 'Developing',
@@ -26,7 +24,6 @@ export const projects = [
     link: '',
   },
   {
-    id: '3',
     title: {
       pt: 'Em Construção',
       en: 'Developing',
@@ -39,7 +36,6 @@ export const projects = [
     link: '',
   },
   {
-    id: '4',
     title: {
       pt: 'Em Construção',
       en: 'Developing',
