@@ -3,11 +3,10 @@ import { useEffect, useRef, useState } from 'react'
 
 // import Image from 'next/image'
 import Link from 'next-intl/link'
-import { Construction, Link2 } from 'lucide-react'
 import { motion } from 'framer-motion'
-
 import { projects } from '@/constants'
 import { useParams } from 'next/navigation'
+import { Construction, Link2 } from 'lucide-react'
 
 export default function CasesSection() {
   const { locale } = useParams() as string | any
@@ -42,10 +41,10 @@ export default function CasesSection() {
           drag="x"
           dragConstraints={{ right: 0, left: -width }}
         >
-          {projects.map((project: Record<string, any>) => {
+          {projects.map((project: Record<string, any>, index: number) => {
             return (
               <motion.div
-                key={project?.id}
+                key={index}
                 className="flex flex-col items-center justify-center w-full min-h-[400px] min-w-[360px] max-w-[600px] h-full max-h-[300px] bg-omnicomment rounded-3xl my-5 mr-5 p-5 shadow-sm"
               >
                 {/* <Image

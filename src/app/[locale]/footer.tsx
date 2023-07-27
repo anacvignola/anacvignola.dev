@@ -2,7 +2,7 @@ import { Codepen, Dribbble, Github, Linkedin, Mail } from 'lucide-react'
 
 export default function Footer() {
   return (
-    <footer className="flex justify-between items-center border-omniforeground py-6 border-t">
+    <footer className="flex justify-between items-center border-omniforeground py-6 border-t absolute bottom-0 w-full max-w-6xl m-auto">
       <small className="text-omniforeground">
         © 2023,{' '}
         <a

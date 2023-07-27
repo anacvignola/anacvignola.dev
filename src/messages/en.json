@@ -20,5 +20,15 @@
     "motion": "Motion",
     "motionDescription": "I create modern interactions for the user to have the best experience.",
     "contactMe": "Contact me!"
+  },
+  "AboutPage": {
+    "title": "About",
+    "paragraphOne": "My name is Ana Claudia Vignola, I was born in Taió/SC, currently I work as a front-end developer at",
+    "paragraphTwo": "I've been through some universities studying technology graduations but I haven't completed the course yet. I've also worked on back-end development, but my focus is web/mobile development and UX/UI design. I love working in a team, I am communicative and curious, I like to learn new things.",
+    "phraseOne": "in addition to working as a freelancer.",
+    "phraseTwo": "If you want to know more about my career visit",
+    "myCv": "my resume",
+    "myLinkedin": "my linkedin",
+    "cvLink": "/docs/CV-en-AnaClaudiaVignola.pdf"
   }
 }

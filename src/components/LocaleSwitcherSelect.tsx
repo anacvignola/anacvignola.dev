@@ -1,5 +1,4 @@
 'use client'
-
 import clsx from 'clsx'
 import { usePathname, useRouter } from 'next-intl/client'
 import { ChangeEvent, ReactNode, useTransition } from 'react'
