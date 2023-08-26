@@ -17,7 +17,6 @@ export interface Project {
   date: string
   github: string
 }
-hx - core - admin
 
 export default function CasesSection({ projects }: Project[] | any) {
   const { locale } = useParams() as string | any
