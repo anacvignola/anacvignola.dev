@@ -9,7 +9,6 @@ export default function Navigation() {
     <nav className="max-w-md flex justify-between items-center">
       <NavigationLink href="/about">{t('about')}</NavigationLink>
       <NavigationLink href="/portfolio">{t('portfolio')}</NavigationLink>
-      <NavigationLink href="/contact">{t('contact')}</NavigationLink>
       <LocaleSwitcher />
     </nav>
   )

@@ -5,7 +5,7 @@ export default function About() {
   const t = useTranslations('AboutPage')
 
   return (
-    <div className="pt-10 pb-14 flex flex-col min-w-full min-h-full">
+    <section className="pt-10 pb-14 flex flex-col min-w-full min-h-full animate-fadeIn animation-delay-2">
       <div className="min-w-full border-b-2 border-b-omnililac py-4">
         <h2 className="text-2xl text-omnililac">{t('title')}</h2>
       </div>
@@ -49,6 +49,6 @@ export default function About() {
           />
         </div>
       </div>
-    </div>
+    </section>
   )
 }

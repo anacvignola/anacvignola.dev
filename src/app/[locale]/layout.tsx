@@ -45,7 +45,7 @@ export default async function RootLayout({ children, params }: Props) {
       <body
         className={`${rubik.className} w-full h-full min-w-full relative bg-omnibackground`}
       >
-        <div className="w-full max-w-6xl xs:p-4 ss:p-5 mx-auto my-0 min-h-screen">
+        <main className="w-full max-w-6xl xs:p-4 ss:p-5 mx-auto my-0 min-h-screen">
           <header className="w-full flex items-center justify-between py-5">
             <Link href="/" locale={locale} className="cursor-pointer">
               <Image
@@ -59,7 +59,7 @@ export default async function RootLayout({ children, params }: Props) {
           </header>
           {children}
           <Footer />
-        </div>
+        </main>
       </body>
     </html>
   )

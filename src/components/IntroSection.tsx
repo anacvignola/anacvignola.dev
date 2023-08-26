@@ -8,7 +8,7 @@ export default function IntroSection() {
 
   return (
     <section className="min-h-[80vh] h-full flex-col w-full justify-center items-center">
-      <div className="w-full pt-10 max-w-4xl mx-auto my-0">
+      <div className="w-full pt-10 max-w-4xl mx-auto my-0 animate-slideUpCubiBezier animation-delay-2 ">
         <h1 className="pb-5 text-center font-bold text-transparent text-6xl bg-clip-text bg-gradient-to-r from-pink-300 via-purple-300 to-indigo-400">
           {t('title')}
         </h1>
@@ -20,7 +20,7 @@ export default function IntroSection() {
           />
         </Link>
       </div>
-      <div className="w-full pt-8 flex justify-center items-center">
+      <div className="w-full pt-8 flex justify-center items-center animate-slideUpCubiBezier animation-delay-2 ">
         <Image
           width={1024}
           height={800}
