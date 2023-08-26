@@ -7,7 +7,7 @@ export default function ServicesSection() {
   return (
     <section
       id="services"
-      className="py-12 h-full flex-col w-full justify-center items-center"
+      className="py-12 h-full flex-col w-full justify-center items-center animate-slideUpCubiBezier animation-delay-2 "
     >
       <h3 className="font-bold text-transparent text-4xl bg-clip-text bg-gradient-to-r from-green-300 via-blue-500 to-purple-600">
         {t('services')}
