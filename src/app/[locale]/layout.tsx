@@ -55,7 +55,7 @@ export default async function RootLayout({ children, params }: Props) {
           data-color="#875FE7"
           data-position="Right"
           data-x_margin="18"
-          data-y_margin="85"
+          data-y_margin="86"
         ></script>
       </head>
       <body
