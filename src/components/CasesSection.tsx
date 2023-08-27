@@ -36,7 +36,7 @@ export default function CasesSection({ projects }: Project[] | any) {
   return (
     <section
       id="cases"
-      className="py-12 h-full flex-col w-full justify-center items-center animate-slideUpCubiBezier animation-delay-2 "
+      className="pb-12 h-full flex-col w-full justify-center items-center"
     >
       <h3 className="font-bold text-transparent text-4xl bg-clip-text bg-gradient-to-r from-green-300 via-blue-500 to-purple-600">
         {locale === 'pt' ? 'Projetos recentes' : 'Recent Projects'}
@@ -83,13 +83,6 @@ export default function CasesSection({ projects }: Project[] | any) {
           })}
         </motion.div>
       </motion.div>
-      <div className="py-4 flex w-full justify-center items-center pb-6">
-        <Link href="/portfolio">
-          <button className="py-4 px-9 rounded-[61px] text-omnipurple magnifyBorder">
-            {locale === 'pt' ? 'Ver mais' : 'More'}
-          </button>
-        </Link>
-      </div>
     </section>
   )
 }

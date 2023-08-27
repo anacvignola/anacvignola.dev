@@ -43,21 +43,23 @@ export default async function RootLayout({ children, params }: Props) {
     <html lang={locale} className="scroll-smooth">
       <head />
       <body
-        className={`${rubik.className} w-full h-full min-w-full relative bg-omnibackground`}
+        className={`${rubik.className} w-full min-w-screen bg-omnibackground`}
       >
-        <main className="w-full max-w-6xl xs:p-4 ss:p-5 mx-auto my-0 min-h-screen">
-          <header className="w-full flex items-center justify-between py-5">
-            <Link href="/" locale={locale} className="cursor-pointer">
-              <Image
-                src="/images/logo.png"
-                alt="anacvignola.dev"
-                width={45}
-                height={49}
-              />
-            </Link>
-            <Navigation />
-          </header>
-          {children}
+        <main className="w-full max-w-6xl px-5 md:px-7 mx-auto my-0 min-h-screen flex flex-col justify-between items-center">
+          <div className="w-full">
+            <header className="w-full flex items-center justify-between py-5">
+              <Link href="/" locale={locale} className="cursor-pointer">
+                <Image
+                  src="/images/logo.png"
+                  alt="anacvignola.dev"
+                  width={45}
+                  height={49}
+                />
+              </Link>
+              <Navigation />
+            </header>
+            {children}
+          </div>
           <Footer />
         </main>
       </body>

@@ -9,8 +9,8 @@ export default function About() {
       <div className="min-w-full border-b-2 border-b-omnililac py-4">
         <h2 className="text-2xl text-omnililac">{t('title')}</h2>
       </div>
-      <div className="flex min-w-full py-8 justify-between items-center text-omniforeground text-lg">
-        <div className="max-w-md">
+      <div className="grid min-w-full py-8 grid-cols-1 gap-5 md:grid-cols-2 text-omniforeground text-base sm:text-lg">
+        <div className="w-full">
           <p className="">
             {t('paragraphOne')}{' '}
             <a
@@ -22,7 +22,7 @@ export default function About() {
             </a>
             , {t('phraseOne')}
           </p>
-          <p className=" py-8">{t('paragraphTwo')}</p>
+          <p className="py-8">{t('paragraphTwo')}</p>
           <p className="">
             {t('phraseTwo')}{' '}
             <a className="text-omnicyan" href={t('cvLink')} target="_blank">
@@ -39,14 +39,16 @@ export default function About() {
             .
           </p>
         </div>
-        <div className="border-2 border-omnililac rounded-3xl p-1">
-          <Image
-            className="rounded-2xl"
-            src="/images/photo.jpeg"
-            width={382}
-            height={380}
-            alt="Ana Claudia Vignola photo"
-          />
+        <div className="flex items-center justify-center">
+          <div className="border-2 border-omnililac rounded-3xl p-1">
+            <Image
+              className="rounded-2xl"
+              src="/images/photo.jpeg"
+              width={382}
+              height={380}
+              alt="Ana Claudia Vignola photo"
+            />
+          </div>
         </div>
       </div>
     </section>

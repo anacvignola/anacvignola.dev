@@ -25,7 +25,7 @@ export default async function Portfolio({ params: { locale } }: string | any) {
       <div className="min-w-full border-b-2 border-b-omnililac py-4 mb-16">
         <h2 className="text-2xl text-omnililac">{t('title')}</h2>
       </div>
-      <div className="flex flex-col space-y-28">
+      <div className="flex flex-col space-y-28 items-center">
         {allProjects.map((project: Project) => {
           return (
             <div key={project?.id}>
