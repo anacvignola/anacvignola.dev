@@ -41,7 +41,10 @@ export default async function RootLayout({ children, params }: Props) {
 
   return (
     <html lang={locale} className="scroll-smooth">
-      <head />
+      <head>
+        <meta content="width=device-width, initial-scale=1" name="viewport" />
+        <link rel="shortcut icon" href="/images/favicon.ico" type="image/png" />
+      </head>
       <body
         className={`${rubik.className} w-full min-w-screen bg-omnibackground`}
       >
