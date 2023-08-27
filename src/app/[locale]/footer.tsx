@@ -18,35 +18,50 @@ export default function Footer() {
           href="https://dribbble.com/anacvignola/"
           target="_blank"
         >
-          <Dribbble size={20} />
+          <Dribbble
+            size={20}
+            className="hover:-translate-y-1 transition-transform"
+          />
         </a>
         <a
           className="flex items-center justify-center p-2 text-omniforeground hover:text-omnicyan"
           href="mailto:anacvignola@riseup.net"
           target="_blank"
         >
-          <Mail size={20} />
+          <Mail
+            size={20}
+            className="hover:-translate-y-1 transition-transform"
+          />
         </a>
         <a
           className="flex items-center justify-center p-2 text-omniforeground hover:text-omnicyan"
           href="https://github.com/anacvignola"
           target="_blank"
         >
-          <Github size={20} />
+          <Github
+            size={20}
+            className="hover:-translate-y-1 transition-transform"
+          />
         </a>
         <a
           className="flex items-center justify-center p-2 text-omniforeground hover:text-omnicyan"
           href="https://codepen.io/anacvignola"
           target="_blank"
         >
-          <Codepen size={20} />
+          <Codepen
+            size={20}
+            className="hover:-translate-y-1 transition-transform"
+          />
         </a>
         <a
           className="flex items-center justify-center p-2 text-omniforeground hover:text-omnicyan"
           href="https://www.linkedin.com/in/anacvignola"
           target="_blank"
         >
-          <Linkedin size={20} />
+          <Linkedin
+            size={20}
+            className="hover:-translate-y-1 transition-transform"
+          />
         </a>
       </nav>
     </footer>
