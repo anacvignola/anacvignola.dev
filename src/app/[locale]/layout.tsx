@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-sync-scripts */
 import '@/styles/globals.css'
 
 import Image from 'next/image'
@@ -44,6 +45,18 @@ export default async function RootLayout({ children, params }: Props) {
       <head>
         <meta content="width=device-width, initial-scale=1" name="viewport" />
         <link rel="shortcut icon" href="/images/favicon.ico" type="image/png" />
+        <script
+          data-name="BMC-Widget"
+          data-cfasync="false"
+          src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js"
+          data-id="anacvignola"
+          data-description="Support me on Buy me a coffee!"
+          data-message="Thank you for visiting. You can now buy me a coffeee."
+          data-color="#875FE7"
+          data-position="Right"
+          data-x_margin="18"
+          data-y_margin="85"
+        ></script>
       </head>
       <body
         className={`${rubik.className} w-full min-w-screen bg-omnibackground`}
